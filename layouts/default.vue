@@ -3,7 +3,8 @@
 </script>
 
 <template>
-    <ContentDoc />
+    default模块
+    <slot />
 </template>
 
 <style lang='scss' scoped></style>
