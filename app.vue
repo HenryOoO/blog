@@ -10,8 +10,8 @@
         {{ list }}
       </ContentList>
     </div> -->
-
     <AppHeader />
+    <AppAside />
     <NuxtPage />
   </div>
 </template>

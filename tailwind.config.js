@@ -2,7 +2,14 @@
 export default {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      maxWidth: {
+        center:'1260px'
+      },
+      spacing: {
+        'center': '1260px',
+      }
+    },
   },
   plugins: [require('@tailwindcss/typography')],
 }
