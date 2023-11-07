@@ -16,4 +16,7 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const { navigation } = useContent();
+console.log(navigation.value);
+</script>
