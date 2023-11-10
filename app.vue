@@ -10,13 +10,10 @@
         {{ list }}
       </ContentList>
     </div> -->
-    <AppHeader />
-    <AppAside />
+
     <NuxtPage />
   </div>
 </template>
 
 <script setup>
-const { navigation } = useContent();
-console.log(navigation.value);
 </script>

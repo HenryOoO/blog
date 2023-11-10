@@ -3,7 +3,8 @@
 </script>
 
 <template>
-    default模块
+    <!-- <AppHeader /> -->
+    <!-- <AppAside /> -->
     <slot />
 </template>
 
